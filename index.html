@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <main class=" col-sm-12 bg-dark text-light p-5 mx-auto d-flex flex-wrap justify-content-center" style="width: 50%; height:50%">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>Hello Cal-C</h1>
+        </div>
+      </div>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center mt-5">
+                <div class="col-12">
+                <div class="input-group" id="inputs">
+                    <span class="input-group-text">1 + 1</span>
+                    <input type="Number" aria-label="First" class="form-control" id="firstval" required>
+                    <input type="text" aria-label="Symbol" class="form-control" id="symbol" required>
+                    <input type="Number" aria-label="Last" class="form-control" id="secondval" required>
+                    <button id="buttoninc" type="submit" class="btn btn-outline-success">Cal-c</button>   
+
+                </div>
+                    <div class="row">
+                    
+                        <div class="col-md-12 text-center p-3" id="textdisplay">
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    
+                
+            </div>
+        </div>
+
+    </main>
+    <script src="./script.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+  </body>
+</html>
